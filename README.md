@@ -12,10 +12,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -54,7 +51,7 @@ position: absolute
 ```
 doesn't work with popovers so the only way to position a popover relative to another element is with
 ```css
-position: anchor
+position-anchor: --my-anchor
 ```
 Took me a while to figure that one out.
 
