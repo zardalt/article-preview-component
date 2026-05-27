@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preload" href="./images/drawers.jpg" as="image" type="image/jpg"/>
+    <link rel="preload" href="./fonts/Manrope-Bold.ttf" as="font" type="font/ttf" crossorigin/>
+    <link rel="preload" href="./fonts/Manrope-Medium.ttf" as="font" type="font/ttf" crossorigin/>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <article>
+      <div class="hero-image">
+        <img src="./images/drawers.jpg" alt="drawers">
+      </div>
+      <div class="article-content">
+        <div>
+          <h1>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+          <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
+        </div>
+
+        <footer>
+          <div class="article-info">
+            <img src="./images/avatar-michelle.jpg" alt="Michelle's profile picture">
+            <div>
+              <span>Michelle Appleton</span>
+              <time datetime="2020-06-28">28 Jun 2020</time>
+            </div>
+          </div>
+          <div class="share-container">
+            <button popovertarget="activeShareState" aria-label="Share" class="share-button"></button>
+            <div popover id="activeShareState">
+              <h2>SHARE</h2>
+              <a class="fb" href="https://facebook.com" style="--bg-image: url('./images/icon-facebook.svg')"></a>
+              <a class="tw" href="https://twitter.com" style="--bg-image: url('./images/icon-twitter.svg')"></a>
+              <a class="pi" href="https://pinterest.com" style="--bg-image: url('./images/icon-pinterest.svg')"></a>
+
+              <div aria-hidden="true">
+                <button popovertarget="activeShareState" aria-label="Share" class="share-btn"></button>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </article>
+  </body>
+</html>
