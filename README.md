@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/zardalt/article-preview-component)
-- Live Site URL: [Live Site URL]([https://your-live-site-url.com](https://zardalt.github.io/article-preview-component/))
+- Live Site URL: [Live Site URL](https://zardalt.github.io/article-preview-component/)
 
 ## My process
 
